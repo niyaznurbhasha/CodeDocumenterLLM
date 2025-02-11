@@ -43,7 +43,7 @@ def extract_code_changes(repo_path: str):
     return {"input_text": inputs, "target_text": targets}
 
 # Set your repository path
-repo_path = "/mnt/C/Users/niyaz/Documents/in_house_animation_tools/random_tools_python_scripts/"
+repo_path = "/"
 data = extract_code_changes(repo_path)
 dataset = Dataset.from_dict(data)
 
